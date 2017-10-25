@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #5090e8;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.logo {
+	display: block;
+	height: 35px;	
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	background-color: white;
+	width: 400px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 4px;
+}
+
+h1 {
+	text-align: center;
+	color: #575757;
+	font-size: 28px;	
+	padding-bottom: 50px;
+}
+
+form.signup-form legend {
+	font-size: 0;
+}
+
+.signup-form label, .signup-form input {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.signup-form input, .signup-form button {
+	border-radius: 4px;
+	width: 320px;
+	padding: 15px;	
+}
+
+.signup-form input {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #e6e6e6;
+	font-weight: bold;
+}
+
+.signup-form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #a8a8a8;
+}
+
+.signup-form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #a8a8a8;
+   opacity:  1;
+}
+
+.signup-form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #a8a8a8;
+   opacity:  1;
+}
+
+.signup-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #a8a8a8;
+}
+
+.signup-form input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #a8a8a8;
+}
+
+.signup-form button {
+	background-color: #6fc76a;
+	border-width: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.forgot-password {
+	text-align: center;
+	padding-top: 12px;
+	font-size: 14px;
+}
+
+p.forgot-password a{
+	color: #989898;
+}
+
+p.account {
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+p.account a:link {
+	color: white;
+}
+

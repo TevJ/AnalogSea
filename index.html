@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea - Sign up</title>
+	<meta charset="utf-8" name="description" content="Sign up page for AnalogSea">
+	<!-- fonts  -->
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ 	<!-- CSS reset -->
+ 	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+ 	<!-- styles -->
+ 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+	<img class="logo" src="images/logo.png">
+
+	<main>
+		<h1>Sign Up</h1>
+		<form class="signup-form" action="/signupp/" method="post">
+			<fieldset>
+				
+				<legend>Sign up info</legend>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email"
+					placeholder="foo@bar.com">
+
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password"
+					placeholder="1234passw0rd">
+
+				<button type="submit">Sign up</button>
+			</fieldset>
+		</form>
+
+		<p class="forgot-password"><a href="/forgot-password/new">Forgot password?</a></p>
+	</main>
+	<p class="account">Already have an account? <a href="/login">Log in</a></p>
+
+</body>
+</html>
