@@ -66,6 +66,25 @@ form.signup-form legend {
 	font-weight: bold;
 }
 
+.signup-form input:focus,
+.signup-form button:focus {
+	/* Restore desirable focus behavior 
+	 in non-webkit browsers like Firefox */
+	outline: auto 2px #87ceeb;
+	/* Preseve default focus behavior in webkit browsers */
+	outline: auto 5px -webkit-focus-ring-color;
+	box-shadow: 0;
+}
+
+.signup-form button:hover,
+.signup-form button:focus {
+  background-color: #0CB863;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
 .signup-form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #a8a8a8;
 }
